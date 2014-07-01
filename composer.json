@@ -10,6 +10,25 @@
             "email": "david@ddeboer.nl"
         }
     ],
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "version": "dev-master",
+                "name": "byng-systems/phpforce-soap-client",
+                "source": {
+                    "url": "https://github.com/byng-systems/phpforce-soap-client.git",
+                    "type": "git",
+                    "reference": "origin/master"
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Phpforce\\SoapClient": "src/"
+                    }
+                }
+            }
+        }
+    ],
     "require": {
         "guzzle/http": "*",
         "phpforce/soap-client": "*"
